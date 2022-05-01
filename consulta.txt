@@ -1,0 +1,13 @@
+SELECT persona.nombre_persona,proveedor.rut_proveedor
+FROM persona,proveedor
+WHERE persona.cod_persona = 1
+
+
+
+
+SELECT persona.nombre_persona,proveedor.rut_proveedor FROM persona,proveedor WHERE persona.cod_persona = 1;
+
+SELECT persona.nombre_persona,proveedor.rut_proveedor FROM persona,proveedor WHERE proveedor.cod_proveedor = 1;
+
+
+SELECT persona.nombre_persona, proveedor.cod_proveedor  FROM persona, proveedor WHERE persona.cod_persona = proveedor.cod_proveedor
